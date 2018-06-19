@@ -34,8 +34,8 @@ import { IVault } from "./interfaces/IVault.sol";
  * creating Sets, as well as all collateral flows throughout the system.
  */
 contract Core is
-    CoreInternal,
-    CoreIssuance
+    CoreIssuance,
+    CoreInternal
 {
     // Use SafeMath library for all uint256 arithmetic
     using SafeMath for uint256;
